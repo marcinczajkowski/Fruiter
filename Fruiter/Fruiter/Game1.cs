@@ -833,7 +833,7 @@ namespace Fruiter
                         spriteBatch.Draw(menuImage, new Vector2(0, 0), Color.White);
                         spriteBatch.DrawString(hud.MediumFont, "Please press 'Enter' to start game.", new Vector2(75, 850), Color.Black);
                         spriteBatch.DrawString(hud.GeorgiaFont, "Press 'i' for instructions.", new Vector2(250, 820), Color.White);
-
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Esc' to Exit game.", new Vector2(10, 10), Color.Black);
                         break;
                     }
                 // DRAWING INSTRUCTIONS STATE
