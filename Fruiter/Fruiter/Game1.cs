@@ -970,14 +970,10 @@ namespace Fruiter
         // Load Apples
         public void LoadApples()
         {
-            // random variables for X and Y axis for Apples
-            int randomY = random.Next(-600, -50);
-            int randomX = random.Next(0, 750);
-
             // maintain 5 apples on screen
             if (AppleList.Count() < 5)
             {
-                AppleList.Add(new Apple(Content.Load<Texture2D>("Apple"), new Vector2(randomX, randomY)));
+                AppleList.Add(new Apple(Content.Load<Texture2D>("Apple"), new Vector2(random.Next(0, 750), random.Next(-600, -50))));
             }
 
             //remove the not visible Apples from the Applelist
@@ -994,14 +990,10 @@ namespace Fruiter
         // Load Oranges
         public void LoadOranges()
         {
-            // random variables for X and Y axis for Oranges
-            int randomY = random.Next(-600, -50);
-            int randomX = random.Next(0, 750);
-
             // maintain oranges on screen
             if (OrangeList.Count() < 4)
             {
-                OrangeList.Add(new Orange(Content.Load<Texture2D>("orange"), new Vector2(randomX, randomY)));
+                OrangeList.Add(new Orange(Content.Load<Texture2D>("orange"), new Vector2(random.Next(0, 750), random.Next(-600, -50))));
             }
 
             //remove the not visible Oranges from the Orangelist
@@ -1018,14 +1010,10 @@ namespace Fruiter
         // Load Bananas
         public void LoadBananas()
         {
-            // random variables for X and Y axis for Bananas
-            int randomY = random.Next(-600, -50);
-            int randomX = random.Next(0, 750);
-
             // maintain bananas
             if (BananaList.Count() < 2)
             {
-                BananaList.Add(new Banana(Content.Load<Texture2D>("banana"), new Vector2(randomX, randomY)));
+                BananaList.Add(new Banana(Content.Load<Texture2D>("banana"), new Vector2(random.Next(0, 750), random.Next(-600, -50))));
             }
 
             //remove the not visible Bananas from the Bananalist
@@ -1042,14 +1030,10 @@ namespace Fruiter
         // Load Blueberries
         public void LoadBlueberries()
         {
-            // random variables for X and Y axis for Blueberries
-            int randomY = random.Next(-600, -50);
-            int randomX = random.Next(0, 750);
-
             // maintain blueberries
             if (BlueberryList.Count() < 2)
             {
-                BlueberryList.Add(new Blueberry(Content.Load<Texture2D>("blueberry"), new Vector2(randomX, randomY)));
+                BlueberryList.Add(new Blueberry(Content.Load<Texture2D>("blueberry"), new Vector2(random.Next(0, 750), random.Next(-600, -50))));
             }
 
             //remove the not visible Blueberries from the Blueberrylist
@@ -1066,14 +1050,10 @@ namespace Fruiter
         // Load Watermelons
         public void LoadWatermelons()
         {
-            // random variables for X and Y axis for Watermelons
-            int randomY = random.Next(-600, -50);
-            int randomX = random.Next(0, 750);
-
             // maintain watermelons
             if (WatermelonList.Count() < 1)
             {
-                WatermelonList.Add(new Watermelon(Content.Load<Texture2D>("watermelon"), new Vector2(randomX, randomY)));
+                WatermelonList.Add(new Watermelon(Content.Load<Texture2D>("watermelon"), new Vector2(random.Next(0, 750), random.Next(-600, -50))));
             }
 
             //remove the not visible Watermelons from the Watermelonlist
@@ -1090,14 +1070,10 @@ namespace Fruiter
         // Load Lifes
         public void LoadLives()
         {
-            // random variables for X and Y axis for Lifes
-            int randomY = random.Next(-9000, -3000);
-            int randomX = random.Next(0, 750);
-
             // maintain 1 life
             if (LifeList.Count() < 1)
             {
-                LifeList.Add(new Life(Content.Load<Texture2D>("heart"), new Vector2(randomX, randomY)));
+                LifeList.Add(new Life(Content.Load<Texture2D>("heart"), new Vector2(random.Next(0, 750), random.Next(-9000, -3000))));
             }
 
             //remove the not visible Lifes from the Lifelist
@@ -1114,14 +1090,10 @@ namespace Fruiter
         // Load Enemies
         public void LoadEnemies()
         {
-            // random variables for X and Y axis for enemies
-            int randomY = random.Next(-600, -50);
-            int randomX = random.Next(0, 750);
-
             // maintain 2 enemies on screen
             if (enemyList.Count() < 2)
             {
-                enemyList.Add(new Enemy(Content.Load<Texture2D>("enemy"), new Vector2(randomX, randomY), Content.Load<Texture2D>("enemybullet")));
+                enemyList.Add(new Enemy(Content.Load<Texture2D>("enemy"), new Vector2(random.Next(-600, -50), random.Next(0, 750)), Content.Load<Texture2D>("enemybullet")));
             }
 
             //remove the not visible enemies from the enemylist
@@ -1138,14 +1110,10 @@ namespace Fruiter
         // Load Enemies2
         public void LoadEnemies2()
         {
-            // random variables for X and Y axis for enemies
-            int randomY = random.Next(-600, -50);
-            int randomX = random.Next(800, 1600);
-
             // maintain 2 enemies on screen
             if (enemy2List.Count() < 1)
             {
-                enemy2List.Add(new Enemy2(Content.Load<Texture2D>("enemy2"), new Vector2(randomX, randomY)));
+                enemy2List.Add(new Enemy2(Content.Load<Texture2D>("enemy2"), new Vector2(random.Next(800, 1600), random.Next(-600, -50))));
             }
 
             //remove the not visible enemies from the enemylist
