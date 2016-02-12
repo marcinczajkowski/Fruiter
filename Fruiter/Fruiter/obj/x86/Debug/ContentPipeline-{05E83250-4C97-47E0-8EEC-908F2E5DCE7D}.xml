@@ -272,15 +272,6 @@
       <Time>2015-12-08T03:19:19.0751496+00:00</Time>
     </Item>
     <Item>
-      <Source>mediumsizefont.spritefont</Source>
-      <Name>mediumsizefont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumsizefont.xnb</Output>
-      <Time>2015-12-08T03:33:42.0605095+00:00</Time>
-    </Item>
-    <Item>
       <Source>smallfont.spritefont</Source>
       <Name>smallfont</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -344,6 +335,15 @@
       <Output>C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.xnb</Output>
       <Extra>C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.wma</Extra>
       <Time>2015-12-11T15:17:13.3136209+00:00</Time>
+    </Item>
+    <Item>
+      <Source>mediumfont.spritefont</Source>
+      <Name>mediumfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumfont.xnb</Output>
+      <Time>2015-12-08T03:33:42.0605095+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

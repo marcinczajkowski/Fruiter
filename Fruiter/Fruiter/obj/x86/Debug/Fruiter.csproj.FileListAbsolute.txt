@@ -244,7 +244,6 @@ C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\blueberry.xnb
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy2.xnb
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\georgia.xnb
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\biggerfont.xnb
-C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumsizefont.xnb
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\smallfont.xnb
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\playershoot.xnb
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explode.xnb
@@ -264,3 +263,4 @@ C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe.manifest
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.application
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe
 C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.pdb
+C:\Users\cs12mmc\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumfont.xnb

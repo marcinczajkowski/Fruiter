@@ -14,7 +14,7 @@ namespace Fruiter
     {
         public int BasketPoints, Score, screenWidth, screenHeight, result, value1, value2, value3, randomequator;
         public string equator;
-        public SpriteFont BasketPointsFont, LargerFont, MediumFont, SmallFont;
+        public SpriteFont GeorgiaFont, LargerFont, MediumFont, SmallFont;
         public Vector2 BasketPointsPosition, EquationPosition, ScorePosition;
         public bool showHUD;
         Random random = new Random();
@@ -57,9 +57,10 @@ namespace Fruiter
             showHUD = true;
             screenHeight = 950;
             screenWidth = 800;
-            BasketPointsFont = null;
+            GeorgiaFont = null;
             LargerFont = null;
             MediumFont = null;
+            SmallFont = null;
             BasketPointsPosition = new Vector2(20, 910);
             EquationPosition = new Vector2(20, 20);
             ScorePosition = new Vector2(20, 80);
@@ -174,9 +175,9 @@ namespace Fruiter
         /// </summary>
         public void LoadContent(ContentManager Content)
         {
-            BasketPointsFont = Content.Load<SpriteFont>("georgia");
+            GeorgiaFont = Content.Load<SpriteFont>("georgia");
             LargerFont = Content.Load<SpriteFont>("biggerfont");
-            MediumFont = Content.Load<SpriteFont>("mediumsizefont");
+            MediumFont = Content.Load<SpriteFont>("mediumfont");
             SmallFont = Content.Load<SpriteFont>("smallfont");
             Randomvalues();
         }
@@ -209,7 +210,7 @@ namespace Fruiter
             {
                 spriteBatch.DrawString(LargerFont, value1 + equator + value2 + " = " + "?", EquationPosition, Color.Yellow);
             }
-            spriteBatch.DrawString(BasketPointsFont, "Points : " + BasketPoints, BasketPointsPosition, Color.Yellow);
+            spriteBatch.DrawString(GeorgiaFont, "Points : " + BasketPoints, BasketPointsPosition, Color.Yellow);
             spriteBatch.DrawString(MediumFont, "Your answer : " + Score, ScorePosition, Color.Yellow);
         }
     }

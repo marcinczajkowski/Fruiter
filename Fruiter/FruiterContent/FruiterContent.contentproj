@@ -154,8 +154,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="mediumsizefont.spritefont">
-      <Name>mediumsizefont</Name>
+    <Compile Include="mediumfont.spritefont">
+      <Name>mediumfont</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
     </Compile>

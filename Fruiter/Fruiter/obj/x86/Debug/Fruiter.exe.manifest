@@ -75,7 +75,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/I+yvr/SQFj3jWgN7V3PaHulakw=</dsig:DigestValue>
+        <dsig:DigestValue>AuvCYVOPlSrpQB2yJ25auehN5Os=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -304,7 +304,7 @@
       <dsig:DigestValue>3fxeE1laFxiocDTF1IbD7de3iO0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\mediumsizefont.xnb" size="136366">
+  <file name="Content\mediumfont.xnb" size="136366">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />

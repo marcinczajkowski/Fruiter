@@ -28,7 +28,6 @@ Content\blueberry.xnb
 Content\enemy2.xnb
 Content\georgia.xnb
 Content\biggerfont.xnb
-Content\mediumsizefont.xnb
 Content\smallfont.xnb
 Content\playershoot.xnb
 Content\explode.xnb
@@ -36,5 +35,6 @@ Content\Advance.xnb
 Content\GameOverSnd.xnb
 Content\theme.xnb
 Content\menutheme.xnb
+Content\mediumfont.xnb
 Content\theme.wma
 Content\menutheme.wma

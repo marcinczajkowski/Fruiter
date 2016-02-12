@@ -284,6 +284,12 @@ namespace Fruiter
                             gameState = State.Credits;
                             MediaPlayer.Play(sm.MenuThemeSong);
                         }
+                        if (keyState.IsKeyDown(Keys.Escape))
+                        {
+                            // The user wants to exit the application. Close everything down.
+                            Exit();
+                        }
+
                         break;
                     }
                 // UPDATING ####################### INSTRUCTIONS STATE ##############################
@@ -347,7 +353,7 @@ namespace Fruiter
                         // Get Keyboard state
                         KeyboardState keyState = Keyboard.GetState();
 
-                        if (keyState.IsKeyDown(Keys.Space))
+                        if (keyState.IsKeyDown(Keys.Tab))
                         {
                             gameState = State.Playing;
                             MediaPlayer.Play(sm.bgMusic);
@@ -463,7 +469,7 @@ namespace Fruiter
                         enemy.isVisible = false;
                     }
                 }
-                // enemy.speed = GameLevel;
+                enemy.speed = 2 + (GameLevel / 10);
                 enemy.Update(gameTime);
             }
         }
@@ -503,7 +509,7 @@ namespace Fruiter
                     }
                 }
 
-                // enemy2.speed = GameLevel;
+                enemy2.speed = 1 + (GameLevel / 10);
                 enemy2.Update(gameTime);
             }
         }
@@ -580,7 +586,7 @@ namespace Fruiter
                 }
 
                 // update each Apple
-                // a.speed = (GameLevel + 1);
+                a.speed = 1 + (GameLevel / 10);
                 a.Update(gameTime);
             }
         }
@@ -613,7 +619,7 @@ namespace Fruiter
                 }
 
                 // update each Orange
-                // o.speed = 2 + (GameLevel + 1);
+                o.speed = 2 + (GameLevel / 10);
                 o.Update(gameTime);
             }
         }
@@ -646,7 +652,7 @@ namespace Fruiter
                 }
 
                 // update each Banana
-                // b.speed = (GameLevel + 2);
+                b.speed = 3 + (GameLevel / 10);
                 b.Update(gameTime);
             }
         }
@@ -679,7 +685,7 @@ namespace Fruiter
                 }
 
                 // update each Blueberry
-                // bl.speed = (GameLevel + 2);
+                bl.speed = 3 + ((GameLevel / 10)*2);
                 bl.Update(gameTime);
             }
         }
@@ -712,7 +718,7 @@ namespace Fruiter
                 }
 
                 // update each Watermelon
-                // w.speed = (GameLevel + 3);
+                w.speed = 3 + ((GameLevel / 10)*3);
                 w.Update(gameTime);
             }
         }
@@ -732,7 +738,7 @@ namespace Fruiter
                     {
                         field.Draw(spriteBatch);
                         bask.Draw(spriteBatch);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "Level " + GameLevel, new Vector2(650, 910), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Level " + GameLevel, new Vector2(650, 910), Color.White);
                         KeyboardState keyState = Keyboard.GetState();
                         // ### HINT ### shows what the answer is when Z, X and C are pressed at the same time. (Used for testing ONLY)
                         if ((keyState.IsKeyDown(Keys.Z)) && (keyState.IsKeyDown(Keys.X)) && (keyState.IsKeyDown(Keys.C)))
@@ -799,23 +805,23 @@ namespace Fruiter
                 case State.Level:
                     {
                         invfield.Draw(spriteBatch);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "Correct!", new Vector2(50, 320), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Correct!", new Vector2(50, 320), Color.White);
 
                         WhatsNew();
 
                         if (GameLevel <= 9)
                         {
-                            spriteBatch.DrawString(hud.BasketPointsFont, firstvalue + " " + hud.equator + " " + secondvalue + " = " + hud.result, new Vector2(50, 350), Color.White);
+                            spriteBatch.DrawString(hud.GeorgiaFont, firstvalue + " " + hud.equator + " " + secondvalue + " = " + hud.result, new Vector2(50, 350), Color.White);
                         }
                         else if (GameLevel >= 10)
                         {
-                            spriteBatch.DrawString(hud.BasketPointsFont, firstvalue + " " + hud.equator + " " + secondvalue + " " + hud.equator + " " + thirdvalue + " = " + hud.result, new Vector2(50, 350), Color.White);
+                            spriteBatch.DrawString(hud.GeorgiaFont, firstvalue + " " + hud.equator + " " + secondvalue + " " + hud.equator + " " + thirdvalue + " = " + hud.result, new Vector2(50, 350), Color.White);
                         }
-                        spriteBatch.DrawString(hud.BasketPointsFont, "The answer was : " + hud.result, new Vector2(50, 380), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "The answer was : " + hud.result, new Vector2(50, 380), Color.White);
                         spriteBatch.DrawString(hud.LargerFont, "Level " + GameLevel, new Vector2(50, 50), Color.Black);
                         LifeWarnings();
-                        spriteBatch.DrawString(hud.BasketPointsFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 550), Color.Gray);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "Hit 'Tab' to continue", new Vector2(50, 800), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 550), Color.Gray);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Tab' to continue", new Vector2(50, 800), Color.White);
                         break;
                     }
 
@@ -826,7 +832,7 @@ namespace Fruiter
                         bask.Draw(spriteBatch);
                         spriteBatch.Draw(menuImage, new Vector2(0, 0), Color.White);
                         spriteBatch.DrawString(hud.MediumFont, "Please press 'Enter' to start game.", new Vector2(75, 850), Color.Black);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "Press 'i' for instructions.", new Vector2(250, 820), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Press 'i' for instructions.", new Vector2(250, 820), Color.White);
 
                         break;
                     }
@@ -837,7 +843,7 @@ namespace Fruiter
 
                         spriteBatch.Draw(instructionsImage, new Vector2(0, 0), Color.White);
                         bask.Draw(spriteBatch);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "Press 'Esc' to go to Menu or 'Enter' to start game", new Vector2(20, 850), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Press 'Esc' to go to Menu or 'Enter' to start game", new Vector2(20, 850), Color.White);
                         break;
                     }
 
@@ -850,7 +856,7 @@ namespace Fruiter
                         spriteBatch.DrawString(hud.MediumFont, "Fully designed and developed by", new Vector2(20, 450), Color.White);
                         spriteBatch.DrawString(hud.MediumFont, "Marcin Czajkowski", new Vector2(20, 550), Color.Gold);
                         spriteBatch.DrawString(hud.MediumFont, "1219909", new Vector2(20, 600), Color.Gold);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "(C) 2015", new Vector2(20, 650), Color.Gold);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "(C) 2015", new Vector2(20, 650), Color.Gold);
                         break;
                     }
 
@@ -870,11 +876,11 @@ namespace Fruiter
                         {
                             spriteBatch.DrawString(hud.MediumFont, "What is " + firstvalue + " " + hud.equator + " " + secondvalue + hud.equator + thirdvalue + " = ?", new Vector2(50, 300), Color.White);
                         }
-                        spriteBatch.DrawString(hud.BasketPointsFont, "You are currently on Level " + GameLevel, new Vector2(50, 150), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "You are currently on Level " + GameLevel, new Vector2(50, 150), Color.White);
                         spriteBatch.DrawString(hud.LargerFont, gamepaused, new Vector2(50, 50), Color.Black);
                         LifeWarnings();
-                        spriteBatch.DrawString(hud.BasketPointsFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 550), Color.Gray);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "Hit 'Space' to continue", new Vector2(50, 800), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 550), Color.Gray);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Tab' to continue", new Vector2(50, 800), Color.White);
                         break;
                     }
                 // DRAWING GAMEOVER STATE
@@ -882,13 +888,13 @@ namespace Fruiter
                     {
                         invfield.Draw(spriteBatch);
                         spriteBatch.Draw(gameoverImage, new Vector2(0, 0), Color.White);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "The correct answer was: " + hud.result, new Vector2(200, 300), Color.Black);
-                        spriteBatch.DrawString(hud.BasketPointsFont, "You have reached Level " + GameLevel + " with a total of : " + hud.BasketPoints.ToString() + " points.", new Vector2(40, 500), Color.LawnGreen);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "The correct answer was: " + hud.result, new Vector2(200, 300), Color.Black);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "You have reached Level " + GameLevel + " with a total of : " + hud.BasketPoints.ToString() + " points.", new Vector2(40, 500), Color.LawnGreen);
                         if (GameLevel >= 6)
                         {
-                            spriteBatch.DrawString(hud.BasketPointsFont, "Well Done!", new Vector2(350, 450), Color.Black);
+                            spriteBatch.DrawString(hud.GeorgiaFont, "Well Done!", new Vector2(350, 450), Color.Black);
                         }
-                        spriteBatch.DrawString(hud.BasketPointsFont, "Press 'Esc' to go to Menu   OR   Press 'r' to Restart Game", new Vector2(20, 850), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Press 'Esc' to go to Menu   OR   Press 'r' to Restart Game", new Vector2(20, 850), Color.White);
                         break;
                     }
             }
@@ -908,39 +914,39 @@ namespace Fruiter
             {
                 Newtext();
                 spriteBatch.Draw(Content.Load<Texture2D>("orange"), new Vector2(first, first2), Color.White);
-                spriteBatch.DrawString(hud.BasketPointsFont, "+2", new Vector2(second, second2), Color.LawnGreen);
+                spriteBatch.DrawString(hud.GeorgiaFont, "+2", new Vector2(second, second2), Color.LawnGreen);
             }
             if (GameLevel == 4)
             {
                 Newtext();
                 spriteBatch.Draw(Content.Load<Texture2D>("banana"), new Vector2(first, first2), Color.White);
-                spriteBatch.DrawString(hud.BasketPointsFont, "+3", new Vector2(second, second2), Color.LawnGreen);
+                spriteBatch.DrawString(hud.GeorgiaFont, "+3", new Vector2(second, second2), Color.LawnGreen);
             }
             if (GameLevel == 6)
             {
                 Newtext();
                 spriteBatch.Draw(Content.Load<Texture2D>("blueberry"), new Vector2(first, first2), Color.White);
-                spriteBatch.DrawString(hud.BasketPointsFont, "+4", new Vector2(second, second2), Color.LawnGreen);
+                spriteBatch.DrawString(hud.GeorgiaFont, "+4", new Vector2(second, second2), Color.LawnGreen);
             }
             if (GameLevel == 8)
             {
                 Newtext();
                 spriteBatch.Draw(Content.Load<Texture2D>("watermelon"), new Vector2(first, first2), Color.White);
-                spriteBatch.DrawString(hud.BasketPointsFont, "+5", new Vector2(second, second2), Color.LawnGreen);
+                spriteBatch.DrawString(hud.GeorgiaFont, "+5", new Vector2(second, second2), Color.LawnGreen);
             }
             if (GameLevel == 10)
             {
                 Newtext();
                 spriteBatch.Draw(Content.Load<Texture2D>("enemy"), new Vector2(first, first2), Color.White);
-                spriteBatch.DrawString(hud.BasketPointsFont, "- watch out!", new Vector2(second, second2), Color.LawnGreen);
+                spriteBatch.DrawString(hud.GeorgiaFont, "- watch out!", new Vector2(second, second2), Color.LawnGreen);
                 spriteBatch.Draw(Content.Load<Texture2D>("heart"), new Vector2(first, 250), Color.White);
-                spriteBatch.DrawString(hud.BasketPointsFont, "- adds a life", new Vector2(second, 250), Color.LawnGreen);
+                spriteBatch.DrawString(hud.GeorgiaFont, "- adds a life", new Vector2(second, 250), Color.LawnGreen);
             }
             if (GameLevel == 12)
             {
                 Newtext();
                 spriteBatch.Draw(Content.Load<Texture2D>("enemy2"), new Vector2(first, first2), Color.White);
-                spriteBatch.DrawString(hud.BasketPointsFont, "- watch out!", new Vector2(second, second2), Color.LawnGreen);
+                spriteBatch.DrawString(hud.GeorgiaFont, "- watch out!", new Vector2(second, second2), Color.LawnGreen);
             }
         }
 
@@ -953,15 +959,15 @@ namespace Fruiter
         {
             if (bask.health == 3)
             {
-                spriteBatch.DrawString(hud.BasketPointsFont, "You still have " + bask.health + " lives", new Vector2(50, 450), Color.GreenYellow);
+                spriteBatch.DrawString(hud.GeorgiaFont, "You still have " + bask.health + " lives", new Vector2(50, 450), Color.GreenYellow);
             }
             else if (bask.health == 2)
             {
-                spriteBatch.DrawString(hud.BasketPointsFont, "You only have " + bask.health + " lives", new Vector2(50, 450), Color.LightGreen);
+                spriteBatch.DrawString(hud.GeorgiaFont, "You only have " + bask.health + " lives", new Vector2(50, 450), Color.LightGreen);
             }
             else if (bask.health == 1)
             {
-                spriteBatch.DrawString(hud.BasketPointsFont, "Watch Out! This is your last life!", new Vector2(50, 450), Color.LightSalmon);
+                spriteBatch.DrawString(hud.GeorgiaFont, "Watch Out! This is your last life!", new Vector2(50, 450), Color.LightSalmon);
             }
         }
 
