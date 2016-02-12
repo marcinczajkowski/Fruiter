@@ -98,14 +98,14 @@ namespace Fruiter
             instructionsImage = Content.Load<Texture2D>("instructions");
         }
 
-        // Update
+        // UPDATE ---------------------------------------------------------------------------
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            // UPDATING PLAYING STATE
+            // UPDATING #################### PLAYING STATE ######################
             switch (gameState)
             {
                 case State.Playing:
@@ -235,7 +235,7 @@ namespace Fruiter
                         break;
                     }
 
-                // UPDATING LEVEL STATE
+                // UPDATING ################### LEVEL STATE ###########################
                 case State.Level:
                     {
                         firstvalue = hud.value1;
@@ -250,17 +250,14 @@ namespace Fruiter
                         if (keyState.IsKeyDown(Keys.Tab))
                         {
                             hud.Equation2(GameLevel);
-                            hud.Score = 0;
-                            bask.position = new Vector2(400, 900);
-                            bask.bulletList.Clear();
+                            ClearFnE();
                             gameState = State.Playing;
-
                             MediaPlayer.Play(sm.bgMusic);
                         }
                         break;
                     }
 
-                // UPDATING MENU STATE
+                // UPDATING #################### MENU STATE ############################
                 case State.Menu:
                     {
                         // Get Keyboard state
@@ -289,8 +286,8 @@ namespace Fruiter
                         }
                         break;
                     }
-                // UPDATING INSTRUCTIONS STATE
-                case State.Instructions:
+                // UPDATING ####################### INSTRUCTIONS STATE ##############################
+                 case State.Instructions:
                     {
                         invfield.Update(gameTime);
                         invfield.speed = 1;
@@ -319,7 +316,7 @@ namespace Fruiter
                         break;
                     }
 
-                // ----additional----- UPDATING Credits STATE
+                // ----additional----- UPDATING ############## CREDITS STATE ###############
                 case State.Credits:
                     {
                         field.Update(gameTime);
@@ -337,7 +334,7 @@ namespace Fruiter
                         break;
                     }
 
-                // UPDATING PAUSE STATE
+                // UPDATING ##################### PAUSE STATE #############################
                 case State.Pause:
                     {
                         firstvalue = hud.value1;
@@ -364,7 +361,7 @@ namespace Fruiter
                         }
                         break;
                     }
-                // UPDATING GAMEOVER STATE
+                // UPDATING ###################### GAMEOVER STATE ###########################
                 case State.Gameover:
                     {
                         invfield.Update(gameTime);
@@ -726,6 +723,7 @@ namespace Fruiter
             GraphicsDevice.Clear(Color.Brown);
 
             spriteBatch.Begin();
+
 
             switch (gameState)
             {
@@ -1144,6 +1142,20 @@ namespace Fruiter
         //clear from all
         public void ClearAll()
         {
+            ClearFnE();
+            bask.health = 3;
+            hud.BasketPoints = 0;
+            hud.value1 = 0;
+            hud.value2 = 0;
+            hud.value3 = 0;
+            hud.result = 0;
+            GameLevel = 1;
+        }
+
+        //clear fruit and enemies
+        private void ClearFnE()
+        {
+            hud.Score = 0;
             bask.position = new Vector2(400, 900);
             bask.bulletList.Clear();
             enemyList.Clear();
@@ -1154,14 +1166,6 @@ namespace Fruiter
             BlueberryList.Clear();
             WatermelonList.Clear();
             LifeList.Clear();
-            bask.health = 3;
-            hud.BasketPoints = 0;
-            hud.Score = 0;
-            hud.value1 = 0;
-            hud.value2 = 0;
-            hud.value3 = 0;
-            hud.result = 0;
-            GameLevel = 1;
         }
     }
 }
