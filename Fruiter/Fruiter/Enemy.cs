@@ -41,11 +41,9 @@ namespace Fruiter
 
             //Update enemy movement
             position.Y += speed;
-
-            //Move enemy back to top if hits bottom
             if (position.Y >= 950)
             {
-                position.Y = -75;
+                isVisible = false;
             }
 
             EnemyShoot();

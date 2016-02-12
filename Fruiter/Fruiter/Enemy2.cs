@@ -26,7 +26,7 @@ namespace Fruiter
             position = newPosition;
             currentDifficultyLevel = game1.GameLevel;
             speed = 4;
-            sidespeed = speed +1;
+            sidespeed = speed + 1;
             health = 10;
             isVisible = true;
         }
@@ -40,11 +40,10 @@ namespace Fruiter
             position.Y += speed;
             position.X -= sidespeed;
 
-
             //Move enemy back to top if hits bottom
             if (position.Y >= 950)
             {
-                position.Y = -75;
+                isVisible = false;
             }
             if (position.X <= 0)
             {

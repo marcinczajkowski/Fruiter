@@ -46,8 +46,9 @@ namespace Fruiter
             position.Y = position.Y + speed;
             if (position.Y >= 950)
             {
-                position.Y = -50;
+                isVisible = false;
             }
+
             // rotate Watermelon
             float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
             rotationAngle += elapsed;

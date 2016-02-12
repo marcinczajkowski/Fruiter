@@ -47,7 +47,7 @@ namespace Fruiter
             position.Y = position.Y + speed;
             if (position.Y >= 950)
             {
-                position.Y = -50;
+                isVisible = false;
             }
 
             // rotate Blueberry
