@@ -1,0 +1,216 @@
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\bullet.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemybullet.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explosion.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\gameover.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\greenfield.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\healthbar.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\instructions.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menuimage.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\ship.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explode.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.wma
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.pdb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.csprojResolveAssemblyReference.cache
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.pdb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\Basketshoot.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\Apple.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\georgia.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\banana.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\orange.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\bullet.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemybullet.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explosion.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\gameover.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\greenfield.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\healthbar.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\instructions.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menuimage.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\ship.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\ene
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\bullet.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemybullet.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explosion.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\gameover.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\greenfield.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\instructions.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menuimage.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\ship.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\banana.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\orange.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\apple.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\watermelon.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\heart.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\newlife.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\invertgreenfield.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+1.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+2.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+3.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\x2.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-1.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-5.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\wrong.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\georgia.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\biggerfont.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumsizefont.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\playershoot.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explode.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\Advance.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\GameOverSnd.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.xnb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.wma
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.wma
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe.manifest
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.application
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.pdb
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.csprojResolveAssemblyReference.cache
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe.manifest
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.application
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe
+\\acfs4\cs12\cs12mmc\Desktop\CS3005 - Digital Media and Games\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.pdb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\bullet.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemybullet.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explosion.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\gameover.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\greenfield.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\instructions.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menuimage.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\ship.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\banana.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\orange.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\apple.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\watermelon.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\heart.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\newlife.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\invertgreenfield.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+1.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+2.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+3.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\x2.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-1.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-5.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\wrong.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\georgia.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\biggerfont.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumsizefont.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\playershoot.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explode.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\Advance.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\GameOverSnd.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.xnb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.wma
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.wma
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe.manifest
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.application
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.pdb
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.csprojResolveAssemblyReference.cache
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe.manifest
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.application
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe
+C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.pdb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\bullet.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemybullet.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explosion.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\gameover.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\greenfield.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\instructions.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menuimage.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\ship.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\banana.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\orange.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\apple.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\watermelon.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\heart.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\newlife.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\invertgreenfield.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+1.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+2.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+3.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\x2.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-1.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-5.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\wrong.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\georgia.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\biggerfont.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumsizefont.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\playershoot.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explode.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\Advance.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\GameOverSnd.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.xnb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.wma
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.wma
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe.manifest
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.application
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.pdb
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.csprojResolveAssemblyReference.cache
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe.manifest
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.application
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe
+\\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.pdb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\bullet.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemybullet.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explosion.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\gameover.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\greenfield.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\instructions.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menuimage.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\ship.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\banana.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\orange.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\apple.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\watermelon.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\heart.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\newlife.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\invertgreenfield.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+1.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+2.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+3.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\x2.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-1.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-5.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\wrong.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\georgia.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\biggerfont.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumsizefont.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\playershoot.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explode.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\Advance.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\GameOverSnd.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.wma
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.wma
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe.manifest
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.application
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.exe
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Fruiter.pdb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.csprojResolveAssemblyReference.cache
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe.manifest
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.application
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.exe
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\obj\x86\Debug\Fruiter.pdb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+5.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\nomnomnom.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+4.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\blueberry.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy2.xnb
+\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\smallfont.xnb

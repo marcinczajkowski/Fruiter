@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>bullet.png</Source>
+      <Name>bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\bullet.xnb</Output>
+      <Time>2015-12-07T14:51:44.9995123+00:00</Time>
+    </Item>
+    <Item>
+      <Source>enemybullet.png</Source>
+      <Name>enemybullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemybullet.xnb</Output>
+      <Time>2015-12-07T15:16:55.8985871+00:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion.png</Source>
+      <Name>explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2016-01-29T11:39:08.9711454+00:00</Time>
+    </Item>
+    <Item>
+      <Source>gameover.png</Source>
+      <Name>gameover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\gameover.xnb</Output>
+      <Time>2015-12-07T12:56:00.1942486+00:00</Time>
+    </Item>
+    <Item>
+      <Source>greenfield.png</Source>
+      <Name>greenfield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\greenfield.xnb</Output>
+      <Time>2015-12-07T23:57:30.540581+00:00</Time>
+    </Item>
+    <Item>
+      <Source>instructions.png</Source>
+      <Name>instructions</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\instructions.xnb</Output>
+      <Time>2015-12-08T13:44:04.5761865+00:00</Time>
+    </Item>
+    <Item>
+      <Source>menuimage.png</Source>
+      <Name>menuimage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menuimage.xnb</Output>
+      <Time>2015-12-08T14:48:52.489939+00:00</Time>
+    </Item>
+    <Item>
+      <Source>ship.png</Source>
+      <Name>ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\ship.xnb</Output>
+      <Time>2015-12-07T12:06:51.4574044+00:00</Time>
+    </Item>
+    <Item>
+      <Source>enemy.png</Source>
+      <Name>enemy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy.xnb</Output>
+      <Time>2015-12-07T15:18:12.8292794+00:00</Time>
+    </Item>
+    <Item>
+      <Source>banana.png</Source>
+      <Name>banana</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\banana.xnb</Output>
+      <Time>2015-12-07T17:40:22.3661807+00:00</Time>
+    </Item>
+    <Item>
+      <Source>orange.png</Source>
+      <Name>orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\orange.xnb</Output>
+      <Time>2015-12-07T23:13:16.9488042+00:00</Time>
+    </Item>
+    <Item>
+      <Source>apple.png</Source>
+      <Name>apple</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\apple.xnb</Output>
+      <Time>2015-12-07T18:17:47.1026319+00:00</Time>
+    </Item>
+    <Item>
+      <Source>watermelon.png</Source>
+      <Name>watermelon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\watermelon.xnb</Output>
+      <Time>2015-12-07T23:37:58.4225397+00:00</Time>
+    </Item>
+    <Item>
+      <Source>heart.png</Source>
+      <Name>heart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\heart.xnb</Output>
+      <Time>2015-12-07T15:29:32.9072804+00:00</Time>
+    </Item>
+    <Item>
+      <Source>newlife.png</Source>
+      <Name>newlife</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\newlife.xnb</Output>
+      <Time>2016-02-01T12:29:30.1624132+00:00</Time>
+    </Item>
+    <Item>
+      <Source>invertgreenfield.png</Source>
+      <Name>invertgreenfield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\invertgreenfield.xnb</Output>
+      <Time>2015-12-08T12:05:49.4487327+00:00</Time>
+    </Item>
+    <Item>
+      <Source>+1.png</Source>
+      <Name>+1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+1.xnb</Output>
+      <Time>2016-01-29T10:49:45.5528332+00:00</Time>
+    </Item>
+    <Item>
+      <Source>+2.png</Source>
+      <Name>+2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+2.xnb</Output>
+      <Time>2016-01-29T10:58:59.9752699+00:00</Time>
+    </Item>
+    <Item>
+      <Source>+3.png</Source>
+      <Name>+3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+3.xnb</Output>
+      <Time>2016-01-29T11:02:55.9228623+00:00</Time>
+    </Item>
+    <Item>
+      <Source>x2.png</Source>
+      <Name>x2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\x2.xnb</Output>
+      <Time>2016-01-29T10:38:59.8222666+00:00</Time>
+    </Item>
+    <Item>
+      <Source>-1.png</Source>
+      <Name>-1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-1.xnb</Output>
+      <Time>2016-01-29T11:06:29.931261+00:00</Time>
+    </Item>
+    <Item>
+      <Source>-5.png</Source>
+      <Name>-5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\-5.xnb</Output>
+      <Time>2016-01-29T11:10:42.9335587+00:00</Time>
+    </Item>
+    <Item>
+      <Source>wrong.png</Source>
+      <Name>wrong</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\wrong.xnb</Output>
+      <Time>2015-12-11T12:59:21.8785601+00:00</Time>
+    </Item>
+    <Item>
+      <Source>georgia.spritefont</Source>
+      <Name>georgia</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\georgia.xnb</Output>
+      <Time>2015-12-07T11:48:45.6901144+00:00</Time>
+    </Item>
+    <Item>
+      <Source>biggerfont.spritefont</Source>
+      <Name>biggerfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\biggerfont.xnb</Output>
+      <Time>2015-12-08T03:19:19.0751496+00:00</Time>
+    </Item>
+    <Item>
+      <Source>mediumsizefont.spritefont</Source>
+      <Name>mediumsizefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumsizefont.xnb</Output>
+      <Time>2015-12-08T03:33:42.0605095+00:00</Time>
+    </Item>
+    <Item>
+      <Source>playershoot.wav</Source>
+      <Name>playershoot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\playershoot.xnb</Output>
+      <Time>2015-12-08T00:08:46.8132616+00:00</Time>
+    </Item>
+    <Item>
+      <Source>explode.wav</Source>
+      <Name>explode</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\explode.xnb</Output>
+      <Time>2015-12-08T00:09:11.1386529+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Advance.wav</Source>
+      <Name>Advance</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\Advance.xnb</Output>
+      <Time>2015-12-11T14:45:18.7671854+00:00</Time>
+    </Item>
+    <Item>
+      <Source>GameOver.wav</Source>
+      <Name>GameOverSnd</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\GameOverSnd.xnb</Output>
+      <Time>2015-12-11T14:45:18.7871874+00:00</Time>
+    </Item>
+    <Item>
+      <Source>theme.mp3</Source>
+      <Name>theme</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.xnb</Output>
+      <Extra>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\theme.wma</Extra>
+      <Time>2015-12-08T00:12:32.8671911+00:00</Time>
+    </Item>
+    <Item>
+      <Source>menutheme.mp3</Source>
+      <Name>menutheme</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.xnb</Output>
+      <Extra>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\menutheme.wma</Extra>
+      <Time>2015-12-11T15:17:13.3136209+00:00</Time>
+    </Item>
+    <Item>
+      <Source>+5.png</Source>
+      <Name>+5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+5.xnb</Output>
+      <Time>2016-01-29T11:05:15.7518438+00:00</Time>
+    </Item>
+    <Item>
+      <Source>nomnomnom.png</Source>
+      <Name>nomnomnom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\nomnomnom.xnb</Output>
+      <Time>2016-01-25T13:18:50.809005+00:00</Time>
+    </Item>
+    <Item>
+      <Source>+4.png</Source>
+      <Name>+4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\+4.xnb</Output>
+      <Time>2016-01-29T11:23:49.8802455+00:00</Time>
+    </Item>
+    <Item>
+      <Source>blueberry.png</Source>
+      <Name>blueberry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\blueberry.xnb</Output>
+      <Time>2016-01-29T11:52:50.5842985+00:00</Time>
+    </Item>
+    <Item>
+      <Source>enemy2.png</Source>
+      <Name>enemy2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\enemy2.xnb</Output>
+      <Time>2016-01-29T12:36:14.5748764+00:00</Time>
+    </Item>
+    <Item>
+      <Source>smallfont.spritefont</Source>
+      <Name>smallfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\smallfont.xnb</Output>
+      <Time>2016-02-01T10:54:00.3757704+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{05E83250-4C97-47E0-8EEC-908F2E5DCE7D}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\FruiterContent\</RootDirectory>
+      <LoggerRootDirectory>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\</LoggerRootDirectory>
+      <IntermediateDirectory>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>\\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-11-12T08:57:59.1795255+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
