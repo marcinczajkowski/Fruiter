@@ -66,7 +66,8 @@ namespace Fruiter
             graphics.IsFullScreen = false;
             graphics.PreferredBackBufferWidth = 800;
             graphics.PreferredBackBufferHeight = 950;
-            this.Window.Title = "Fruiter Game (c) Marcin Czajkowski";
+            DateTime today = DateTime.Today;
+            this.Window.Title = "Fruiter Game " + " © " + today.ToString("D") + " Marcin Czajkowski";
             Content.RootDirectory = "Content";
             enemyBulletDamage = 5;
             menuImage = null;
