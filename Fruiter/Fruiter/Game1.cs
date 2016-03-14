@@ -739,12 +739,13 @@ namespace Fruiter
                     {
                         field.Draw(spriteBatch);
                         bask.Draw(spriteBatch);
+                        spriteBatch.DrawString(hud.SmallFont, "Press 'p' to Pause", new Vector2(650, 880), Color.Gold);
                         spriteBatch.DrawString(hud.GeorgiaFont, "Level " + GameLevel, new Vector2(650, 910), Color.White);
                         KeyboardState keyState = Keyboard.GetState();
                         // ### HINT ### shows what the answer is when Z, X and C are pressed at the same time. (Used for testing ONLY)
                         if ((keyState.IsKeyDown(Keys.Z)) && (keyState.IsKeyDown(Keys.X)) && (keyState.IsKeyDown(Keys.C)))
                         {
-                            spriteBatch.DrawString(hud.SmallFont, "Answer: " + hud.result, new Vector2(50, 935), Color.Gold);
+                            spriteBatch.DrawString(hud.SmallFont, "Answer: " + hud.result, new Vector2(150, 920), Color.Gold);
                         }
 
                         foreach (Explosion ex in explosionList)
