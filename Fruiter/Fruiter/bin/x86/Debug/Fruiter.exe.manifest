@@ -75,7 +75,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>YOmWGu36333RH6PjOMu3scfpUTg=</dsig:DigestValue>
+        <dsig:DigestValue>c+KpztoWa4W0JR1hN7GbkhKIlbc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -196,6 +196,15 @@
       <dsig:DigestValue>M6hCWfq5Rhc1WA+I6ikVkhHZr2E=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="Content\Cookiemonsterinfo.xnb" size="456187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+WgYWTt9k1KKKyqKl3Zr63dAv0k=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Content\enemy.xnb" size="8787">
     <hash>
       <dsig:Transforms>
@@ -286,13 +295,13 @@
       <dsig:DigestValue>U5kkSIEPZid7WDlp4oYlKLBYCmU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\instructions.xnb" size="3040187">
+  <file name="Content\instructionspage.xnb" size="3040187">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>U9c914GAp+gI/bymUqqDVRoCO2M=</dsig:DigestValue>
+      <dsig:DigestValue>sYJVDXpNXAH+AKaGwvKrTC8aqxc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\invertgreenfield.xnb" size="3040187">
@@ -328,7 +337,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>f43KctAkzx55NZip8pB15uaYtIE=</dsig:DigestValue>
+      <dsig:DigestValue>ZxVQPz3zCdZyXA7opbShLdtasIE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\menutheme.xnb" size="127">
@@ -400,7 +409,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>RBPd67kKkqoKJz7K4BxGyEe1Zec=</dsig:DigestValue>
+      <dsig:DigestValue>GbsVG1ejFfB31yIJBa07RESa3W0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\theme.xnb" size="123">
@@ -419,6 +428,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>FADQcL4IyF5R6fvFszZmjw/mKnc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\worminfo.xnb" size="234539">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>H4F9lQCyQ+79MVbA/U6dzN8HY40=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\wrong.xnb" size="262331">

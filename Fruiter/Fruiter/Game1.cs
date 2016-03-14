@@ -95,7 +95,7 @@ namespace Fruiter
             sm.LoadContent(Content);
             menuImage = Content.Load<Texture2D>("menuimage");
             gameoverImage = Content.Load<Texture2D>("gameover");
-            instructionsImage = Content.Load<Texture2D>("instructions");
+            instructionsImage = Content.Load<Texture2D>("instructionspage");
         }
 
         // UPDATE ---------------------------------------------------------------------------
@@ -223,7 +223,7 @@ namespace Fruiter
                         bask.Update(gameTime);
 
                         // keep background updated
-                        field.speed = GameLevel;
+                        field.speed = 1 + (GameLevel/10);
                         field.Update(gameTime);
 
                         // Clear from any explosions
@@ -284,7 +284,7 @@ namespace Fruiter
                             gameState = State.Credits;
                             MediaPlayer.Play(sm.MenuThemeSong);
                         }
-                        if (keyState.IsKeyDown(Keys.Escape))
+                        if (keyState.IsKeyDown(Keys.Escape) && (keyState.IsKeyDown(Keys.Enter)))
                         {
                             // The user wants to exit the application. Close everything down.
                             Exit();
@@ -469,7 +469,7 @@ namespace Fruiter
                         enemy.isVisible = false;
                     }
                 }
-                enemy.speed = 2 + (GameLevel / 10);
+                enemy.speed = 2;
                 enemy.Update(gameTime);
             }
         }
@@ -820,7 +820,7 @@ namespace Fruiter
                         spriteBatch.DrawString(hud.GeorgiaFont, "The answer was : " + hud.result, new Vector2(50, 380), Color.White);
                         spriteBatch.DrawString(hud.LargerFont, "Level " + GameLevel, new Vector2(50, 50), Color.Black);
                         LifeWarnings();
-                        spriteBatch.DrawString(hud.GeorgiaFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 550), Color.Gray);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 650), Color.Gray);
                         spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Tab' to continue", new Vector2(50, 800), Color.White);
                         break;
                     }
@@ -833,7 +833,7 @@ namespace Fruiter
                         spriteBatch.Draw(menuImage, new Vector2(0, 0), Color.White);
                         spriteBatch.DrawString(hud.MediumFont, "Please press 'Enter' to start game.", new Vector2(75, 850), Color.Black);
                         spriteBatch.DrawString(hud.GeorgiaFont, "Press 'i' for instructions.", new Vector2(250, 820), Color.White);
-                        spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Esc' to Exit game.", new Vector2(10, 10), Color.Black);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Esc' & 'Enter' together to Exit game.", new Vector2(10, 10), Color.Black);
                         break;
                     }
                 // DRAWING INSTRUCTIONS STATE
@@ -856,7 +856,7 @@ namespace Fruiter
                         spriteBatch.DrawString(hud.MediumFont, "Fully designed and developed by", new Vector2(20, 450), Color.White);
                         spriteBatch.DrawString(hud.MediumFont, "Marcin Czajkowski", new Vector2(20, 550), Color.Gold);
                         spriteBatch.DrawString(hud.MediumFont, "1219909", new Vector2(20, 600), Color.Gold);
-                        spriteBatch.DrawString(hud.GeorgiaFont, "(C) 2015", new Vector2(20, 650), Color.Gold);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "(C) 2016", new Vector2(20, 650), Color.Gold);
                         break;
                     }
 
@@ -879,7 +879,7 @@ namespace Fruiter
                         spriteBatch.DrawString(hud.GeorgiaFont, "You are currently on Level " + GameLevel, new Vector2(50, 150), Color.White);
                         spriteBatch.DrawString(hud.LargerFont, gamepaused, new Vector2(50, 50), Color.Black);
                         LifeWarnings();
-                        spriteBatch.DrawString(hud.GeorgiaFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 550), Color.Gray);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 650), Color.Gray);
                         spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Tab' to continue", new Vector2(50, 800), Color.White);
                         break;
                     }
@@ -937,6 +937,7 @@ namespace Fruiter
             if (GameLevel == 10)
             {
                 Newtext();
+                spriteBatch.Draw(Content.Load<Texture2D>("Cookiemonsterinfo"), new Vector2(350, 350), Color.White);
                 spriteBatch.Draw(Content.Load<Texture2D>("enemy"), new Vector2(first, first2), Color.White);
                 spriteBatch.DrawString(hud.GeorgiaFont, "- watch out!", new Vector2(second, second2), Color.LawnGreen);
                 spriteBatch.Draw(Content.Load<Texture2D>("heart"), new Vector2(first, 250), Color.White);
@@ -945,6 +946,7 @@ namespace Fruiter
             if (GameLevel == 12)
             {
                 Newtext();
+                spriteBatch.Draw(Content.Load<Texture2D>("worminfo"), new Vector2(350, 350), Color.White);
                 spriteBatch.Draw(Content.Load<Texture2D>("enemy2"), new Vector2(first, first2), Color.White);
                 spriteBatch.DrawString(hud.GeorgiaFont, "- watch out!", new Vector2(second, second2), Color.LawnGreen);
             }
@@ -1097,7 +1099,7 @@ namespace Fruiter
             // maintain 2 enemies on screen
             if (enemyList.Count() < 2)
             {
-                enemyList.Add(new Enemy(Content.Load<Texture2D>("enemy"), new Vector2(random.Next(-600, -50), random.Next(0, 750)), Content.Load<Texture2D>("enemybullet")));
+                enemyList.Add(new Enemy(Content.Load<Texture2D>("enemy"), new Vector2(random.Next(0, 750), random.Next(-600, -50)), Content.Load<Texture2D>("enemybullet")));
             }
 
             //remove the not visible enemies from the enemylist

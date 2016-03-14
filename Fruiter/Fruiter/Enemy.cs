@@ -28,7 +28,7 @@ namespace Fruiter
             bulletTexture = newBulletTexture;
             position = newPosition;
             currentDifficultyLevel = game1.GameLevel;
-            bulletDelay = 100 - (currentDifficultyLevel * 2);
+            bulletDelay = 100;
             speed = 6;
             health = 5;
             isVisible = true;

@@ -89,45 +89,41 @@ namespace Fruiter
         public void Equation2(int GameLevel)
         {
             ForEquation();
+            if (GameLevel == 1)
+            {
+                EquationValues(5, 5);
+            }
             if (GameLevel == 2)
             {
-                EquationValues(10, 10);
+                EquationValues(5, 5);
             }
             if (GameLevel == 3 || GameLevel == 5)
             {
-                EquationValues(10, 100);
+                EquationValues(5, 10);
             }
             if (GameLevel == 4)
             {
-                EquationValues(100, 10);
+                EquationValues(10, 10);
             }
             if (GameLevel == 6 || GameLevel == 7 || GameLevel == 8)
             {
-                EquationValues(100, 100);
+                EquationValues(10, 20);
             }
             if (GameLevel == 9 || GameLevel == 10)
             {
+                EquationValues(5, 5, 5);
+            }
+            if (GameLevel == 11 || GameLevel == 12 || GameLevel == 13)
+            {
                 EquationValues(10, 10, 10);
-            }
-            if (GameLevel == 11)
-            {
-                EquationValues(10, 10, 100);
-            }
-            if (GameLevel == 12)
-            {
-                EquationValues(10, 100, 10);
-            }
-            if (GameLevel == 13)
-            {
-                EquationValues(100, 10, 10);
             }
             if (GameLevel == 14)
             {
-                EquationValues(10, 100, 100);
+                EquationValues(10, 20, 10);
             }
             if (GameLevel >= 15)
             {
-                EquationValues(100, 100, 100);
+                EquationValues(20, 20, 20);
             }
         }
 

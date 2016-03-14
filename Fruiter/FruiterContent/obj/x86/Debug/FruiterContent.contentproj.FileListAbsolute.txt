@@ -3,3 +3,4 @@ C:\Users\Marcin_Admin\Desktop\fruiter\fruiter\Fruiter\Fruiter\FruiterContent\obj
 \\acfs4\cs12\cs12mmc\Desktop\1219909\fruiter\Fruiter\Fruiter\FruiterContent\obj\x86\Debug\FruiterContent.contentprojResolveAssemblyReference.cache
 \\acfs4\cs12\cs12mmc\Desktop\FYP\new project\Fruiter\Fruiter\FruiterContent\obj\x86\Debug\FruiterContent.contentprojResolveAssemblyReference.cache
 C:\Users\cs12mmc\Fruiter\Fruiter\FruiterContent\obj\x86\Debug\FruiterContent.contentprojResolveAssemblyReference.cache
+C:\Fruiter\Fruiter\FruiterContent\obj\x86\Debug\FruiterContent.contentprojResolveAssemblyReference.cache

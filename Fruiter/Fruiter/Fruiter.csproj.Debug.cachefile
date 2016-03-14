@@ -3,7 +3,6 @@ Content\enemybullet.xnb
 Content\explosion.xnb
 Content\gameover.xnb
 Content\greenfield.xnb
-Content\instructions.xnb
 Content\menuimage.xnb
 Content\ship.xnb
 Content\enemy.xnb
@@ -28,6 +27,7 @@ Content\blueberry.xnb
 Content\enemy2.xnb
 Content\georgia.xnb
 Content\biggerfont.xnb
+Content\mediumfont.xnb
 Content\smallfont.xnb
 Content\playershoot.xnb
 Content\explode.xnb
@@ -35,6 +35,8 @@ Content\Advance.xnb
 Content\GameOverSnd.xnb
 Content\theme.xnb
 Content\menutheme.xnb
-Content\mediumfont.xnb
+Content\instructionspage.xnb
+Content\Cookiemonsterinfo.xnb
+Content\worminfo.xnb
 Content\theme.wma
 Content\menutheme.wma
