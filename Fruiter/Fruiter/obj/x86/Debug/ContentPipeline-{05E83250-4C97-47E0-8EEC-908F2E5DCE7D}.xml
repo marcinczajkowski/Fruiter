@@ -251,7 +251,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\georgia.xnb</Output>
-      <Time>2016-03-14T09:08:05.3470403+00:00</Time>
+      <Time>2016-03-14T14:09:36.5809828+00:00</Time>
     </Item>
     <Item>
       <Source>biggerfont.spritefont</Source>
@@ -269,7 +269,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Fruiter\Fruiter\Fruiter\bin\x86\Debug\Content\mediumfont.xnb</Output>
-      <Time>2016-03-14T09:08:05.534059+00:00</Time>
+      <Time>2016-03-14T14:09:48.3971643+00:00</Time>
     </Item>
     <Item>
       <Source>smallfont.spritefont</Source>

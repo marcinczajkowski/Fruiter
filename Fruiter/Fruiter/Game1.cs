@@ -836,6 +836,7 @@ namespace Fruiter
                         spriteBatch.DrawString(hud.MediumFont, "Please press 'Enter' to start game.", new Vector2(75, 850), Color.Black);
                         spriteBatch.DrawString(hud.GeorgiaFont, "Press 'i' for instructions.", new Vector2(250, 820), Color.White);
                         spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Esc' & 'Enter' together to Exit game.", new Vector2(10, 10), Color.Black);
+                        spriteBatch.DrawString(hud.SmallFont, "Press 'c' for Credits", new Vector2(620, 35), Color.Gold);
                         break;
                     }
                 // DRAWING INSTRUCTIONS STATE
@@ -858,7 +859,9 @@ namespace Fruiter
                         spriteBatch.DrawString(hud.MediumFont, "Fully designed and developed by", new Vector2(20, 450), Color.White);
                         spriteBatch.DrawString(hud.MediumFont, "Marcin Czajkowski", new Vector2(20, 550), Color.Gold);
                         spriteBatch.DrawString(hud.MediumFont, "1219909", new Vector2(20, 600), Color.Gold);
-                        spriteBatch.DrawString(hud.GeorgiaFont, "(C) 2016", new Vector2(20, 650), Color.Gold);
+                        DateTime today = DateTime.Today;
+                        spriteBatch.DrawString(hud.GeorgiaFont, "\u00a9" + today.ToString("D") + " ", new Vector2(20, 650), Color.Gold);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Press 'Esc' or 'backspace' to go to Menu", new Vector2(20, 850), Color.White);
                         break;
                     }
 
@@ -883,6 +886,7 @@ namespace Fruiter
                         LifeWarnings();
                         spriteBatch.DrawString(hud.GeorgiaFont, "You have " + hud.BasketPoints.ToString() + " points so far", new Vector2(50, 650), Color.Gray);
                         spriteBatch.DrawString(hud.GeorgiaFont, "Hit 'Tab' to continue", new Vector2(50, 800), Color.White);
+                        spriteBatch.DrawString(hud.GeorgiaFont, "Press 'Esc' to go to Menu", new Vector2(20, 850), Color.White);
                         break;
                     }
                 // DRAWING GAMEOVER STATE
