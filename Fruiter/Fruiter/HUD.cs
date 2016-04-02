@@ -67,7 +67,7 @@ namespace Fruiter
 
         }
 
-        // Equation
+        // Random Equation
         public void Randomvalues()
         {
             // random variables for 1 and 2 values in the equation

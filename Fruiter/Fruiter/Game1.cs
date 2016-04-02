@@ -167,7 +167,7 @@ namespace Fruiter
 
                         // Get Keyboard state
                         KeyboardState keyState = Keyboard.GetState();
-                        // if score is correct for the equation then next level
+                        // if answer is correct for the equation then proceed to the next level
                         if (keyState.IsKeyDown(Keys.Enter))
                         {
                             if (hud.result == hud.Score)
@@ -177,6 +177,7 @@ namespace Fruiter
                                 sm.Advancementsound.Play();
                                 gameState = State.Level;
                             }
+                            // if answer is not correct then display 'wrong' message and takeaway 10 points
                             else if (hud.result != hud.Score)
                             {
                                 explosionList.Add(new Explosion(Content.Load<Texture2D>("wrong"), new Vector2(450, 400)));
