@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Fruiter
 {
+    // Cookiemonster
     public class Enemy
     {
         public Rectangle boundingBox;

@@ -490,7 +490,6 @@ namespace Fruiter
                 {
                     if (enemy2.boundingBox.Intersects(a.boundingBox))
                     {
-                        // ##################### change explodeSound to eating sound!!! ##############
                         sm.explodeSound.Play();
                         explosionList.Add(new Explosion(Content.Load<Texture2D>("-1"), new Vector2(a.position.X + a.texture.Width / 2, a.position.Y + a.texture.Width / 2)));
                         hud.SubtractBasketPoints(5);

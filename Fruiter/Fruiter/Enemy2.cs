@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Fruiter
 {
+    // Worm
     public class Enemy2
     {
         public Rectangle boundingBox;

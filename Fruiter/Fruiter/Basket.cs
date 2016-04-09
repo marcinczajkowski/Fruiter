@@ -38,7 +38,7 @@ namespace Fruiter
         // Load Content
         public void LoadContent(ContentManager Content)
         {
-            texture = Content.Load<Texture2D>("ship");
+            texture = Content.Load<Texture2D>("basket");
             bulletTexture = Content.Load<Texture2D>("bullet");
             healthTexture = Content.Load<Texture2D>("heart");
             sm.LoadContent(Content);
@@ -75,12 +75,8 @@ namespace Fruiter
             //Getting keyboard state
             KeyboardState keystate = Keyboard.GetState();
 
-
             // BoundingBox for our Basketship
             boundingBox = new Rectangle((int)position.X, (int)position.Y, texture.Width, texture.Height);
-
-            // Set rectangle for health bar
-            //healthRectangle = new Rectangle((int)hbposition.X, ((int)hbposition.Y - healthTexture.Height), 800, healthTexture.Height);
 
             // Fire bullets, holding spacebar
             if (keystate.IsKeyDown(Keys.Space))
